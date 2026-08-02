@@ -1,0 +1,7 @@
+# Decoded CAN signals are derived from combined_can_frames.csv via the DBC
+# decoder. They are hundreds of MB each and exceed GitHub's 100 MB file limit,
+# so they are regenerated locally rather than tracked here.
+decoded_signals.csv
+
+# WSL/Windows "downloaded from the internet" alternate-data-stream artifacts
+*:Zone.Identifier
