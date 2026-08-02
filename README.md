@@ -11,3 +11,5 @@ Use `OWT-yyyy-mm-dd/ [EXAMPLE]` as a template folder for future OWTs. Feel free 
 - `OWT-2026-03-15` only has a `...db.zip` file.
 - Data from `OWT-2026-06-06` was recorded with the wrong timestamp (`2026-06-05`).
 - Data from `OWT-2026-07-11` was recorded with the wrong timestamp (`2026-07-08`).
+- `combined_can_frames.csv` contains all the can messages sent and recieved on the boat during the test.
+    - This data is used for the mock can transceiver in Network system to test the Pathfinding system with real sensor data during the on-water test.
